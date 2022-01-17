@@ -8,7 +8,7 @@ def input_income_check(*args):
         income.setIncome(int(VARincome.get()))
     except ValueError :
         if VARincome.get()=="" :
-            pas
+            pass
         else:
             messagebox.showwarning('Peringatan!','Harap masukkan angka!')
             INPUTincome.delete(len(INPUTincome.get())-1)
